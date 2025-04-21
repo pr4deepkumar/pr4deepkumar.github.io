@@ -3,7 +3,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 // import pic1 from './propic1.jpeg';
-import pic2 from './propic2.jpg';
+import pic2 from './propic2.png';
 import leetcodeIcon from "./leetcode-icon.svg";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className='about center '>
       <div className='propic-cont'>
-        <img src={pic2} className='propic propic-top' alt="Varun Rishwandh Sekar" />
+        <img src={pic2} className='propic propic-top' alt="Pradeep Kumar Vijayakumaran" />
       </div>
 
       {name && (
