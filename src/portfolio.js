@@ -103,22 +103,7 @@ const workExperience = [
     isPublication: true,
     isWork: true,
     isEducation: false,
-  },
-  {
-    name: 'Backend Developer Intern',
-    company: "Grey Scientific Labs",
-    work_years: 'April 2021 - Dec 2021',
-    workExperiencePoints: [
-      'Strengthened data analytics skills in Python and SQL, working with tools like NumPy, Pandas, Scikit-Learn, Matplotlib, and Seaborn on real-world datasets.',
-      'Scored over 90% during internship and was recognized as one of the Top Performers (TPF) during training.'
-    ],
-    // sourceCode: 'https://github.com/funcx-faas/funcX',
-    isPublication: true,
-    isWork: true,
-    isEducation: false,
   }
-
-
 ]
 
 const education = [
@@ -143,11 +128,11 @@ const education = [
 const skills = {
   // Programming Languages
   "Python": 90,
-  "Scala": 85,
   "SQL": 90,
+  "Scala": 85,
+  "HTML/CSS": 80,
   "C/C++": 75,
   "Java": 75,
-  "HTML/CSS": 80,
 
   // Databases
   "MySQL": 90,
@@ -157,49 +142,28 @@ const skills = {
   "MongoDB": 80,
 
   // Frameworks / Libraries
-  "Hadoop": 75,
-  "PySpark": 75,
-  "Airflow": 75,
-  "Keras": 80,
-  "FastAPI": 70,
-  "Flask": 75,
   "NumPy": 90,
-  "SciPy": 90,
-  "Pandas": 90,
-  "Matplotlib": 90,
-  "Seaborn": 90,
-  "Plotly": 90,
-  "Scikit-learn": 90,
-  "Tensorflow": 80,
+    "SciPy": 90,
+    "Pandas": 90,
+    "Matplotlib": 90,
+    "Seaborn": 90,
+    "Plotly": 90,
+    "Scikit-learn": 90,
+    "Keras": 80,
+    "Tensorflow": 80,
+    "Hadoop": 75,
+    "PySpark": 75,
+    "Airflow": 75,
+    "Flask": 75,
+    "FastAPI": 70,
 
   // Cloud / Version Control / Tools
+  "Git": 90,
+  "Jira": 90,
   "Amazon Web Services": 70,
   "Google Cloud": 70,
-  "Control-M": 70,
-  "Git": 90
+  "Control-M": 70
 }
-
-// const skills = [
-//   // skills can be added or removed
-//   // if there are no skills, Skills section won't show up
-//   "Java",
-//   "Python",
-//   "C",
-//   "JavaScript",
-//   "SpringBoot",
-//   "FastAPI",
-//   "Flask",
-//   "Django",
-//   "ReactJS",
-//   "VueJS",
-//   "ExpressJS",
-//   "NodeJS",
-//   "Git",
-//   "Google Cloud",
-//   "Microsoft Azure",
-//   ""
-
-// ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
