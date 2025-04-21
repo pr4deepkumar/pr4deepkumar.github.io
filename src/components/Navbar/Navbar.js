@@ -40,7 +40,7 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        <li className='nav__list-item'>
+        {/* <li className='nav__list-item'>
           <a
             href='#publications'
             onClick={toggleNavList}
@@ -48,7 +48,7 @@ const Navbar = () => {
           >
             Publications
           </a>
-        </li>
+        </li> */}
 
         <li className='nav__list-item'>
           <a

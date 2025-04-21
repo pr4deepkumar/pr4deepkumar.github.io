@@ -133,7 +133,7 @@ const education = [
   {
     name: "St. Joseph's College of Engineering",
     description: 'B.E. in Computer Science and Engineering',
-    // gpa: "9.04 / 10",
+    gpa: "8.60 / 10",
     years: '2016 - 2020',
     isPublication: true,
     isEducation: true,
@@ -141,28 +141,42 @@ const education = [
 ]
 
 const skills = {
-  "Python": 90, 
-  "Java": 80, 
-  "JavaScript": 75,
-  "C": 60,
-  "SpringBoot": 80,
-  "Unit Tests": 80,
-  "CSS": 60,
-  "HTML": 80,
-  "Git": 80,
-  "GCP": 80,
-  "Azure": 65,
-  "Django": 85,
-  "FastAPI": 90,
-  "Linux": 65,
-  "NodeJS": 75,
-  "VueJS": 60,
-  "PostgreSQL": 80,
-  "MySQL": 80,
-  "MongoDB": 65,
-  "Machine / Deep Learning": 65,
-  "Kotlin": 35,
-  "Rust": 35
+  // Programming Languages
+  "Python": 90,
+  "Scala": 85,
+  "SQL": 90,
+  "C/C++": 75,
+  "Java": 75,
+  "HTML/CSS": 80,
+
+  // Databases
+  "MySQL": 90,
+  "Oracle SQL": 90,
+  "HiveQL": 90,
+  "NoSQL": 80,
+  "MongoDB": 80,
+
+  // Frameworks / Libraries
+  "Hadoop": 75,
+  "PySpark": 75,
+  "Airflow": 75,
+  "Keras": 80,
+  "FastAPI": 70,
+  "Flask": 75,
+  "NumPy": 90,
+  "SciPy": 90,
+  "Pandas": 90,
+  "Matplotlib": 90,
+  "Seaborn": 90,
+  "Plotly": 90,
+  "Scikit-learn": 90,
+  "Tensorflow": 80,
+
+  // Cloud / Version Control / Tools
+  "Amazon Web Services": 70,
+  "Google Cloud": 70,
+  "Control-M": 70,
+  "Git": 90
 }
 
 // const skills = [
