@@ -29,6 +29,14 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
+    name: 'Reinforcement Learning in Agar.io',
+    description:
+      'Developed reinforcement learning agents using Q-learning and Deep Q-Networks (DQN) to play Agar.io autonomously, leveraging TensorFlow, PyTorch, and NumPy. Training was conducted in both the official game environment and a custom Python simulation, with performance tracked using Matplotlib visualizations.',
+    stack: ['Python', 'MySQL', 'Flask'],
+    sourceCode: 'https://github.com/haigshiroz/ReinforcementLearningAgario',
+    // livePreview: 'https://github.com',
+  },
+  {
     name: 'F1 Quali Predictor',
     description:
       'Built a machine learning model using FastF1 and linear regression to predict 2025 F1 driver qualifying times based on historical performance data, evaluated with MAE and R² scores.',
@@ -42,14 +50,6 @@ const projects = [
       'Developed a machine learning model to segment customers for personal loan cross-selling by analyzing demographic and behavioral data, with insights visualized using Matplotlib and Seaborn.',
     stack: ['Python', 'Pandas', 'NumPy', 'SciPy','Matplotlib', 'Seaborn', 'SKLearn'],
     sourceCode: 'https://github.com/pr4deepkumar/CustomerSegmentation/',
-    // livePreview: 'https://github.com',
-  },
-  {
-    name: 'Husky Eats',
-    description:
-      'Built a Flask-based food delivery platform for Northeastern students and staff, featuring MySQL-backed order management and OTP-based authentication for secure deliveries.',
-    stack: ['Python', 'MySQL', 'Flask'],
-    sourceCode: 'https://github.com/balaji2417/HuskyEats',
     // livePreview: 'https://github.com',
   }
 ]
