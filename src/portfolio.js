@@ -96,8 +96,8 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Jan. 2020 - Mar. 2020',
     workExperiencePoints: [
-      "Designed and developed a Java application to present historical facts based on date and location using Wikimedia and the Bing Search API.",
-      "Implemented caching to avoid redundant API calls and secured data storage with 256-bit AES encryption."
+      "Strengthened data analytics skills in Python and SQL, working with tools like NumPy, Pandas, Scikit-Learn, Matplotlib, and Seaborn on real-world datasets",
+      "Scored over 90% during internship and was recognized as one of the Top Performers (TPF) during training"
     ],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
