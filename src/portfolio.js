@@ -9,11 +9,10 @@ const about = {
   name: 'Pradeep Kumar Vijayakumaran',
   role: "Grad Student at ",
   description: "I'm a Master's student in Computer Science at Northeastern University, Boston, with a strong interest in data science—particularly in data engineering, analytics, and system integration. I'm passionate about using technology and data to solve complex problems. In my free time, I enjoy playing video games and watching or playing sports.",
-  resume: 'https://drive.google.com/file/d/1V3VNz3BcHp3OyFboirHu42FoZoN_6drv/view?usp=sharing',
   social: {
+    resume: 'https://drive.google.com/file/d/1V3VNz3BcHp3OyFboirHu42FoZoN_6drv/view?usp=sharing',
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
     github: 'https://github.com/pr4deepkumar',
-    leetcode: 'https://leetcode.com/pr4deepkumar'
   },
 }
 
