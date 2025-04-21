@@ -32,7 +32,7 @@ const projects = [
     name: 'Reinforcement Learning in Agar.io',
     description:
       'Developed reinforcement learning agents using Q-learning and Deep Q-Networks (DQN) to play Agar.io autonomously, leveraging TensorFlow, PyTorch, and NumPy. Training was conducted in both the official game environment and a custom Python simulation, with performance tracked using Matplotlib visualizations.',
-    stack: ['Python', 'MySQL', 'Flask'],
+    stack: ['Python', 'TensorFlow', 'PyTorch', 'NumPy'],
     sourceCode: 'https://github.com/haigshiroz/ReinforcementLearningAgario',
     // livePreview: 'https://github.com',
   },
