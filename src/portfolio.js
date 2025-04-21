@@ -13,7 +13,6 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
     github: 'https://github.com/pr4deepkumar',
-    leetcode: "https://leetcode.com/u/pr4deepkumar/"
   },
 }
 

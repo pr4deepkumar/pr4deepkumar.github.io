@@ -1,6 +1,5 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import EmailIcon from '@material-ui/icons/Email'
 import { about } from '../../portfolio'
 import './About.css'
 // import pic1 from './propic1.jpeg';
@@ -55,16 +54,16 @@ const About = () => {
                 <LinkedInIcon />
               </a>
             )}
-            {social.email && (
+
+            {social.leetcode && (
               <a target='_blank' rel="noreferrer"
-                href={social.email}
-                aria-label='email'
+                href={social.leetcode}
+                aria-label='leetcode'
                 className='link link--icon'
               >
-              <EmailIcon />
+              <img src={leetcodeIcon} className='social-media-icon' alt="Leetcode Icon" />
               </a>
             )}
-
           </>
         )}
       </div>
