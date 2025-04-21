@@ -49,16 +49,6 @@ const Navbar = () => {
             Publications
           </a>
         </li> */}
-
-        <li className='nav__list-item'>
-          <a
-            href='#education'
-            onClick={toggleNavList}
-            className='link link--nav'
-          >
-            Education
-          </a>
-        </li>
         <li className='nav__list-item'>
           <a
             href='#skills'
@@ -68,7 +58,15 @@ const Navbar = () => {
             Skills
           </a>
         </li>
-
+        <li className='nav__list-item'>
+          <a
+            href='#education'
+            onClick={toggleNavList}
+            className='link link--nav'
+          >
+            Education
+          </a>
+        </li>
         {contact.email ? (
           <li className='nav__list-item'>
             <a
