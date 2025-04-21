@@ -9,7 +9,7 @@ const about = {
   name: 'Pradeep Kumar Vijayakumaran',
   role: "Grad Student at ",
   description: "I'm a Master's student in Computer Science at Northeastern University, Boston, with a strong interest in data science—particularly in data engineering, analytics, and system integration. I'm passionate about using technology and data to solve complex problems. In my free time, I enjoy playing video games and watching or playing sports.",
-  resume: 'https://drive.google.com/file/d/1glaxPQmzHPWD0-IP2eTL_G94oKmfE2FJ/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1A6HOzHSRRXQUw_Ewz5XR-vw0l9y3n7V4/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
     github: 'https://github.com/pr4deepkumar',
@@ -151,15 +151,17 @@ const skills = {
     "Scikit-learn": 90,
     "Keras": 80,
     "Tensorflow": 80,
-    "Hadoop": 75,
-    "PySpark": 75,
-    "Airflow": 75,
+    "Hadoop": 80,
+    "PySpark": 80,
+    "Hive": 80,
+    "Airflow": 80,
     "Flask": 75,
     "FastAPI": 70,
 
   // Cloud / Version Control / Tools
   "Git": 90,
   "Jira": 90,
+  "Confluence": 90,
   "Amazon Web Services": 70,
   "Google Cloud": 70,
   "Control-M": 70
