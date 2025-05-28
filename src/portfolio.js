@@ -9,7 +9,7 @@ const about = {
   name: 'Pradeep Kumar Vijayakumaran',
   role: "Grad Student at ",
   description: "I'm a Master's student in Computer Science at Northeastern University, Boston, with a strong interest in data science—particularly in data engineering, analytics, and system integration. I'm passionate about using technology and data to solve complex problems. In my free time, I enjoy playing video games and watching or playing sports.",
-  resume: 'https://drive.google.com/file/d/1A6HOzHSRRXQUw_Ewz5XR-vw0l9y3n7V4/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
     github: 'https://github.com/pr4deepkumar',
@@ -29,6 +29,14 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
+    name: 'Customer Segmentation',
+    description:
+      'Developed a machine learning model to segment customers for personal loan cross-selling by analyzing demographic and behavioral data, with insights visualized using Matplotlib and Seaborn.',
+    stack: ['Python', 'Pandas', 'NumPy', 'SciPy','Matplotlib', 'Seaborn', 'SKLearn'],
+    sourceCode: 'https://github.com/pr4deepkumar/CustomerSegmentation/',
+    // livePreview: 'https://github.com',
+  },
+  {
     name: 'Reinforcement Learning in Agar.io',
     description:
       'Developed reinforcement learning agents using Q-learning and Deep Q-Networks (DQN) to play Agar.io autonomously, leveraging TensorFlow, PyTorch, and NumPy. Training was conducted in both the official game environment and a custom Python simulation, with performance tracked using Matplotlib visualizations.',
@@ -37,19 +45,19 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
+    name: 'Husky Eats',
+    description:
+      'Developed an application that enables seamless food and grocery ordering, allowing users to easily select and customize their preferences. Utilized Python, SQL, and HTML to create a smooth, user-friendly interface focused on enhancing the overall ordering experience',
+    stack: ['Python', 'SQL', 'HTML'],
+    sourceCode: 'https://github.com/balaji2417/HuskyEats',
+    // livePreview: 'https://github.com',
+  },
+  {
     name: 'F1 Quali Predictor',
     description:
       'Built a machine learning model using FastF1 and linear regression to predict 2025 F1 driver qualifying times based on historical performance data, evaluated with MAE and R² scores.',
     stack: ['Python', 'FastF1', 'Pandas', 'NumPy', 'SKLearn'],
     sourceCode: 'https://github.com/pr4deepkumar/F1QualiPredictor',
-    // livePreview: 'https://github.com',
-  },
-  {
-    name: 'Customer Segmentation',
-    description:
-      'Developed a machine learning model to segment customers for personal loan cross-selling by analyzing demographic and behavioral data, with insights visualized using Matplotlib and Seaborn.',
-    stack: ['Python', 'Pandas', 'NumPy', 'SciPy','Matplotlib', 'Seaborn', 'SKLearn'],
-    sourceCode: 'https://github.com/pr4deepkumar/CustomerSegmentation/',
     // livePreview: 'https://github.com',
   }
 ]
@@ -69,9 +77,12 @@ const workExperience = [
     name: 'Senior Systems Engineer',
     company: "Infosys Ltd.",
     work_years: 'Oct. 2021 - June 2022',
-    workExperiencePoints: ['Managed operations for 3 major applications at L\'Oréal APAC, ensuring no loss of data and functionality.',
-      'Updated data pipelines to integrate sales data from 2 new major Japanese retailers.',
-      'Designed, developed, and deployed new data pipelines using Scala, HiveQL, SSMS, and Control-M, and facilitated the migration of applications to Google Cloud Platform (GCP).'
+    workExperiencePoints: ['Managed operations for 3 major L\'Oreal APAC applications, ensuring data integrity and error-free functionality',
+'Updated the Existing Pipelines to accommodate the introduction of 2 new major Japanese Retailers’ sales data',
+'Designed, developed and deployed new Data Pipelines that provided new functionalities as required by the clients using Scala, HiveQL, Microsoft SQL Server Management Studio (SSMS) and Control-M',
+'Built Email Alerts that is sent to Business Users and Support Engineers in case of any Application Failure',
+'Facilitated with the movement of Existing Applications to Google Cloud Platform (GCP)',
+'Onboarded incoming support engineers by training them and facilitating cross-functional knowledge transfer'
     ],
     isPublication: true,
     isWork: true,
@@ -82,10 +93,11 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Oct. 2020 - Sept. 2021',
 
-    workExperiencePoints: ['Assisted Nike Inc. in migrating from SAP AFS to SAP S/4HANA with no data or functionality loss.',
-      'Conducted impact analysis on SAP AFS pipelines to inform and support the development of SAP S/4HANA pipelines.',
-      'Developed SAP S/4HANA data pipelines using Python, Git, AWS, Airflow, HiveQL, and Spark, ensuring compatibility with existing data output formats.',
-      'Built Recon DAGs to monitor data movement, sending alerts for any issues, and optimized pipelines to reduce AWS costs by over 40%.'],
+    workExperiencePoints: ['Assisted Nike Inc. in migrating from SAP AFS to SAP S/4HANA with no data or functionality loss',
+'Performed Impact Analysis on the existing Pipelines using SAP AFS data which helped in the design and development of Pipelines that used data sourced from SAP S/4HANA',
+'Built Data Pipelines that utilized data sourced from S4/HANA while retaining the data output formats from the existing Pipelines as required by the client using Python, Git, AWS, Airflow, HiveQL and Spark',
+'Built Recon DAGs that monitored Data Movement at various facets of the Pipelines and sent Alerts through Mail and Slack if there was any Data Loss, Delay in Data Movement, Duplicity or Data Mismatch',
+'Optimized new data pipelines to improve AWS resource efficiency, cutting client costs by over 40%'],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
@@ -143,26 +155,27 @@ const skills = {
 
   // Frameworks / Libraries
   "NumPy": 90,
-    "SciPy": 90,
-    "Pandas": 90,
-    "Matplotlib": 90,
-    "Seaborn": 90,
-    "Plotly": 90,
-    "Scikit-learn": 90,
-    "Keras": 80,
-    "Tensorflow": 80,
-    "Hadoop": 80,
-    "PySpark": 80,
-    "Hive": 80,
-    "Airflow": 80,
-    "Flask": 75,
-    "FastAPI": 70,
+  "SciPy": 90,
+  "Pandas": 90,
+  "Matplotlib": 90,
+  "Seaborn": 90,
+  "Plotly": 90,
+  "Scikit-learn": 90,
+  "Keras": 80,
+  "Tensorflow": 80,
+  "Hadoop": 80,
+  "PySpark": 80,
+  "Hive": 80,
+  "Flask": 75,
+  "FastAPI": 70,
 
   // Cloud / Version Control / Tools
   "Git": 90,
   "Jira": 90,
   "Confluence": 90,
-  "Amazon Web Services": 70,
+  "Amazon Web Services": 85,
+  "Spark": 80,
+  "Airflow": 80,
   "Google Cloud": 70,
   "Control-M": 70
 }
