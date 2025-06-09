@@ -188,6 +188,7 @@ const skills = {
   "Amazon Web Services": 85,
   "Spark": 80,
   "Airflow": 80,
+  "Kafka": 70,
   "Google Cloud": 70,
   "Control-M": 70,
   "Docker": 70,
