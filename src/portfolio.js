@@ -21,6 +21,14 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'AI Resume Analyzer',
+    description:
+      'Developed a recruitment assistant using GPT-4o that automates the evaluation of resumes against job descriptions by extracting text from PDFs and generating detailed suitability feedback in real time via a Flask web app.',
+    stack: ['Python', 'Flask', 'OpenAI GPT-4o', 'pdfplumber'],
+    sourceCode: 'https://github.com/pr4deepkumar/NBA-Game-Predictor',
+    // livePreview: 'https://github.com',
+  },
+  {
     name: 'NBA Game Predictor',
     description:
       'Developed a real-time NBA game prediction app using FastAPI and Dash, leveraging machine learning models trained on historical team stats with data processed via NumPy and Pandas.',
@@ -141,11 +149,14 @@ const skills = {
   // Programming Languages
   "Python": 90,
   "SQL": 90,
+  "Prompt Engineering": 90,
   "Scala": 85,
   "HTML/CSS": 80,
   "C/C++": 75,
   "Java": 75,
-
+  "JavaScript": 65,
+  "TypeScript": 65,
+  
   // Databases
   "MySQL": 90,
   "Oracle SQL": 90,
@@ -173,11 +184,14 @@ const skills = {
   "Git": 90,
   "Jira": 90,
   "Confluence": 90,
+  "Copilot": 90,
   "Amazon Web Services": 85,
   "Spark": 80,
   "Airflow": 80,
   "Google Cloud": 70,
-  "Control-M": 70
+  "Control-M": 70,
+  "Docker": 70,
+  "Kubernetes": 70
 }
 
 const contact = {
