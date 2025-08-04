@@ -21,6 +21,14 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+  name: 'Network Intrusion Detection System using Machine Learning',
+  description:
+    'Built a machine learning-based intrusion detection system using the UNSW-NB15 dataset to classify network traffic as normal or malicious. Applied XGBoost for anomaly detection, achieving high accuracy and precision. Developed a real-time Streamlit dashboard for interactive visualization of predictions and network statistics.',
+  stack: ['Python', 'Scikit-learn', 'XGBoost', 'Streamlit', 'UNSW-NB15'],
+  sourceCode: 'https://github.com/pr4deepkumar/Network-Intrustion-Detection-using-ML',
+  // livePreview: 'https://github.com',
+  },
+  {
     name: 'AI Resume Analyzer',
     description:
       'Developed a recruitment assistant using GPT-4o that automates the evaluation of resumes against job descriptions by extracting text from PDFs and generating detailed suitability feedback in real time via a Flask web app.',
@@ -53,19 +61,19 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
-    name: 'Husky Eats',
-    description:
-      'Developed an application that enables seamless food and grocery ordering, allowing users to easily select and customize their preferences. Utilized Python, SQL, and HTML to create a smooth, user-friendly interface focused on enhancing the overall ordering experience',
-    stack: ['Python', 'SQL', 'HTML'],
-    sourceCode: 'https://github.com/balaji2417/HuskyEats',
-    // livePreview: 'https://github.com',
-  },
-  {
     name: 'F1 Quali Predictor',
     description:
       'Built a machine learning model using FastF1 and linear regression to predict 2025 F1 driver qualifying times based on historical performance data, evaluated with MAE and R² scores.',
     stack: ['Python', 'FastF1', 'Pandas', 'NumPy', 'SKLearn'],
     sourceCode: 'https://github.com/pr4deepkumar/F1QualiPredictor',
+    // livePreview: 'https://github.com',
+  },
+  {
+    name: 'Husky Eats',
+    description:
+      'Developed an application that enables seamless food and grocery ordering, allowing users to easily select and customize their preferences. Utilized Python, SQL, and HTML to create a smooth, user-friendly interface focused on enhancing the overall ordering experience',
+    stack: ['Python', 'SQL', 'HTML'],
+    sourceCode: 'https://github.com/balaji2417/HuskyEats',
     // livePreview: 'https://github.com',
   }
 ]
@@ -172,6 +180,8 @@ const skills = {
   "Seaborn": 90,
   "Plotly": 90,
   "Scikit-learn": 90,
+  "Terraform": 85,
+  "OpenTofu": 85,
   "Keras": 80,
   "Tensorflow": 80,
   "Hadoop": 80,
@@ -184,6 +194,7 @@ const skills = {
   "Git": 90,
   "Jira": 90,
   "Confluence": 90,
+  "LaTeX": 90,
   "Copilot": 90,
   "Amazon Web Services": 85,
   "Spark": 80,
@@ -192,7 +203,9 @@ const skills = {
   "Google Cloud": 70,
   "Control-M": 70,
   "Docker": 70,
-  "Kubernetes": 70
+  "Kubernetes": 70,
+  "Power BI": 70,
+  "Tableau": 70
 }
 
 const contact = {
