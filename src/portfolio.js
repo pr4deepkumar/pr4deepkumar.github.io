@@ -93,12 +93,10 @@ const workExperience = [
     name: 'Senior Systems Engineer',
     company: "Infosys Ltd.",
     work_years: 'Oct. 2021 - June 2022',
-    workExperiencePoints: ['Managed operations for 3 major L\'Oreal APAC applications, ensuring data integrity and error-free functionality',
-'Updated the Existing Pipelines to accommodate the introduction of 2 new major Japanese Retailers’ sales data',
-'Designed, developed and deployed new Data Pipelines that provided new functionalities as required by the clients using Scala, HiveQL, Microsoft SQL Server Management Studio (SSMS) and Control-M',
-'Built Email Alerts that is sent to Business Users and Support Engineers in case of any Application Failure',
-'Facilitated with the movement of Existing Applications to Google Cloud Platform (GCP)',
-'Onboarded incoming support engineers by training them and facilitating cross-functional knowledge transfer'
+    workExperiencePoints: ['Led operations for three critical L\'Oréal APAC applications, maintaining 99.9% uptime and high data accuracy through proactive monitoring, automated alerts, and incident resolution',
+'Upgraded existing data pipelines to integrate feeds from two major Japanese retailers , building scalable workflows using Scala, HiveQL, SSMS, and Control-M',
+'Developed email-based alerting systems to notify stakeholders and support teams of failures in near real time',
+'Supported legacy-to-GCP migration , improving scalability and streamlining team onboarding and collaboration processes'
     ],
     isPublication: true,
     isWork: true,
@@ -109,11 +107,11 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Oct. 2020 - Sept. 2021',
 
-    workExperiencePoints: ['Assisted Nike Inc. in migrating from SAP AFS to SAP S/4HANA with no data or functionality loss',
-'Performed Impact Analysis on the existing Pipelines using SAP AFS data which helped in the design and development of Pipelines that used data sourced from SAP S/4HANA',
-'Built Data Pipelines that utilized data sourced from S4/HANA while retaining the data output formats from the existing Pipelines as required by the client using Python, Git, AWS, Airflow, HiveQL and Spark',
-'Built Recon DAGs that monitored Data Movement at various facets of the Pipelines and sent Alerts through Mail and Slack if there was any Data Loss, Delay in Data Movement, Duplicity or Data Mismatch',
-'Optimized new data pipelines to improve AWS resource efficiency, cutting client costs by over 40%'],
+    workExperiencePoints: ['Assisted Nike Inc. in transitioning from SAP AFS to SAP S/4HANA with zero data loss or functionality disruption',
+'Conducted in-depth impact analysis of legacy workflows to design ETL pipelines using Python, Spark, HiveQL, Airflow, Git, and AWS, ensuring output consistency with existing systems for reliable downstream processing',
+'Developed scalable SAP S/4HANA data pipelines using Python, Spark, HiveQL, Airflow, Git, and AWS , ensuring output formats matched existing AFS pipelines for seamless integration',
+'Built reconciliation DAGs with real-time email/Slack alerts , enabling detection of data loss, delays, or mismatch',
+'Optimized pipeline architecture to reduce AWS resource consumption, cutting infrastructure costs by over 40%'],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
@@ -124,8 +122,9 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Jan. 2020 - Mar. 2020',
     workExperiencePoints: [
-      "Strengthened data analytics skills in Python and SQL, working with tools like NumPy, Pandas, Scikit-Learn, Matplotlib, and Seaborn on real-world datasets",
-      "Scored over 90% during internship and was recognized as one of the Top Performers (TPF) during training"
+      "Strengthened proficiency in Python and SQL by executing hands-on analytics projects on real-world datasets",
+      "Utilized NumPy, Pandas, Scikit-Learn, Matplotlib, and Seaborn to deliver actionable insights and data visualizations",
+      "Achieved >90% internship score , ranked highest in two capstone projects , and earned Top Performer recognition"
     ],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
