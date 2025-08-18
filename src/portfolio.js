@@ -24,7 +24,7 @@ const projects = [
   name: 'Network Intrusion Detection System using Machine Learning',
   description:
     'Built a machine learning-based intrusion detection system using the UNSW-NB15 dataset to classify network traffic as normal or malicious. Applied XGBoost for anomaly detection, achieving high accuracy and precision. Developed a real-time Streamlit dashboard for interactive visualization of predictions and network statistics.',
-  stack: ['Python', 'Scikit-learn', 'XGBoost', 'Streamlit', 'UNSW-NB15'],
+  stack: ['Python', 'Scikit-learn', 'XGBoost', 'Kafka', 'Streamlit', 'UNSW-NB15'],
   sourceCode: 'https://github.com/pr4deepkumar/Network-Intrustion-Detection-using-ML',
   // livePreview: 'https://github.com',
   },
@@ -144,7 +144,7 @@ const education = [
     isEducation: true,
   },
   {
-    name: "St. Joseph's College of Engineering",
+    name: "Anna University",
     description: 'B.E. in Computer Science and Engineering',
     gpa: "8.60 / 10",
     years: '2016 - 2020',
@@ -193,6 +193,7 @@ const skills = {
   // Cloud / Version Control / Tools
   "Git": 90,
   "Jira": 90,
+  "Excel": 90,
   "Confluence": 90,
   "LaTeX": 90,
   "Copilot": 90,
