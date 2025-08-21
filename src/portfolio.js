@@ -68,10 +68,17 @@ const projects = [
     sourceCode: 'https://github.com/pr4deepkumar/F1QualiPredictor',
     // livePreview: 'https://github.com',
   },
+    {
+    name: 'Image Processor Application',
+    description:
+      'Designed and deployed a modular MVC image-processing engine with 15+ advanced transformations like RGB, split/combine and histogram visualization that consistently delivers sub-second latency while maintaining 100% functional accuracy across 50+ rigorous test scenarios.',
+    sourceCode: 'https://github.com/pr4deepkumar/Image-Processor-Application',
+    // livePreview: 'https://github.com',
+  },
   {
     name: 'Husky Eats',
     description:
-      'Developed an application that enables seamless food and grocery ordering, allowing users to easily select and customize their preferences. Utilized Python, SQL, and HTML to create a smooth, user-friendly interface focused on enhancing the overall ordering experience',
+      'Developed an application that enables seamless food and grocery ordering, allowing users to easily select and customize their preferences. Utilized Python, SQL, and HTML to create a smooth, user-friendly interface focused on enhancing the overall ordering experience.',
     stack: ['Python', 'SQL', 'HTML'],
     sourceCode: 'https://github.com/balaji2417/HuskyEats',
     // livePreview: 'https://github.com',
