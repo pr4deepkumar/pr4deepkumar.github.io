@@ -21,12 +21,36 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+  name: 'Natural Language Database Interface (NLDI) Engine',
+  description:
+    'Built a deep learning model to translate natural language questions into executable SQL queries. Achieved 43.9% execution accuracy on the cross-domain Spider dataset using 5.6k training and 700 validation pairs. Engineered a PyTorch-based pipeline for schema serialization, model training, and real-time SQLite query evaluation.',
+  stack: ['Python', 'PyTorch', 'Hugging Face Transformers', 'PEFT', 'Spider Dataset'],
+  sourceCode: 'https://colab.research.google.com/drive/1-68rIhavcMDalklLkGdOTn7KnKFvvzKi?usp=sharing',
+  // livePreview: 'https://github.com',
+  },
+  {
   name: 'Network Intrusion Detection System using Machine Learning',
   description:
     'Built a machine learning-based intrusion detection system using the UNSW-NB15 dataset to classify network traffic as normal or malicious. Applied XGBoost for anomaly detection, achieving high accuracy and precision. Developed a real-time Streamlit dashboard for interactive visualization of predictions and network statistics.',
   stack: ['Python', 'Scikit-learn', 'XGBoost', 'Kafka', 'Streamlit', 'UNSW-NB15'],
   sourceCode: 'https://github.com/pr4deepkumar/Network-Intrustion-Detection-using-ML',
   // livePreview: 'https://github.com',
+  },
+  {
+    name: 'Reinforcement Learning in Agar.io',
+    description:
+      'Developed reinforcement learning agents using Q-learning and Deep Q-Networks (DQN) to play Agar.io autonomously, leveraging TensorFlow, PyTorch, and NumPy. Training was conducted in both the official game environment and a custom Python simulation, with performance tracked using Matplotlib visualizations.',
+    stack: ['Python', 'TensorFlow', 'PyTorch', 'NumPy'],
+    sourceCode: 'https://github.com/haigshiroz/ReinforcementLearningAgario',
+    // livePreview: 'https://github.com',
+  },
+  {
+    name: 'Customer Segmentation',
+    description:
+      'Developed a machine learning model to segment customers for personal loan cross-selling by analyzing demographic and behavioral data, with insights visualized using Matplotlib and Seaborn.',
+    stack: ['Python', 'Pandas', 'NumPy', 'SciPy','Matplotlib', 'Seaborn', 'SKLearn'],
+    sourceCode: 'https://github.com/pr4deepkumar/CustomerSegmentation/',
+    // livePreview: 'https://github.com',
   },
   {
     name: 'NBA Game Predictor',
@@ -42,22 +66,6 @@ const projects = [
       'Developed a recruitment assistant using GPT-4o that automates the evaluation of resumes against job descriptions by extracting text from PDFs and generating detailed suitability feedback in real time via a Flask web app.',
     stack: ['Python', 'Flask', 'OpenAI GPT-4o', 'pdfplumber'],
     sourceCode: 'https://github.com/pr4deepkumar/ai-resume-analyzer',
-    // livePreview: 'https://github.com',
-  },
-  {
-    name: 'Customer Segmentation',
-    description:
-      'Developed a machine learning model to segment customers for personal loan cross-selling by analyzing demographic and behavioral data, with insights visualized using Matplotlib and Seaborn.',
-    stack: ['Python', 'Pandas', 'NumPy', 'SciPy','Matplotlib', 'Seaborn', 'SKLearn'],
-    sourceCode: 'https://github.com/pr4deepkumar/CustomerSegmentation/',
-    // livePreview: 'https://github.com',
-  },
-  {
-    name: 'Reinforcement Learning in Agar.io',
-    description:
-      'Developed reinforcement learning agents using Q-learning and Deep Q-Networks (DQN) to play Agar.io autonomously, leveraging TensorFlow, PyTorch, and NumPy. Training was conducted in both the official game environment and a custom Python simulation, with performance tracked using Matplotlib visualizations.',
-    stack: ['Python', 'TensorFlow', 'PyTorch', 'NumPy'],
-    sourceCode: 'https://github.com/haigshiroz/ReinforcementLearningAgario',
     // livePreview: 'https://github.com',
   },
   {
