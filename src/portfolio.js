@@ -108,10 +108,12 @@ const workExperience = [
     name: 'Senior Systems Engineer',
     company: "Infosys Ltd.",
     work_years: 'Oct. 2021 - June 2022',
-    workExperiencePoints: ['Led operations for three critical L\'Oréal APAC applications, maintaining 99.9% uptime and high data accuracy through proactive monitoring, automated alerts, and incident resolution',
-'Upgraded existing data pipelines to integrate feeds from two major Japanese retailers , building scalable workflows using Scala, HiveQL, SSMS, and Control-M',
-'Developed email-based alerting systems to notify stakeholders and support teams of failures in near real time',
-'Supported legacy-to-GCP migration , improving scalability and streamlining team onboarding and collaboration processes'
+    workExperiencePoints: [
+      "Achieved 99.9% uptime for L’Oréal APAC's mission-critical enterprise applications by engineering a robust support system featuring proactive monitoring, automated alerting, and rapid incident resolution protocols",
+      'Improved data reliability and system performance by developing and optimizing scalable data pipelines (Scala, HiveQL, Control-M) to successfully integrate data feeds from two major Japanese retailers',
+      'Reduced critical system downtime and ensured SLA compliance by building and deploying real-time alerting APIs and automation scripts that immediately notified stakeholders of system failures, enabling faster response times',
+      'Enhanced system scalability and deployment efficiency by contributing to a strategic cloud migration from on-premise infrastructure to Google Cloud, utilizing Git and Agile practices to improve cross-team collaboration'
+
     ],
     isPublication: true,
     isWork: true,
@@ -122,11 +124,11 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Oct. 2020 - Sept. 2021',
 
-    workExperiencePoints: ['Assisted Nike Inc. in transitioning from SAP AFS to SAP S/4HANA with zero data loss or functionality disruption',
-'Conducted in-depth impact analysis of legacy workflows to design ETL pipelines using Python, Spark, HiveQL, Airflow, Git, and AWS, ensuring output consistency with existing systems for reliable downstream processing',
-'Developed scalable SAP S/4HANA data pipelines using Python, Spark, HiveQL, Airflow, Git, and AWS , ensuring output formats matched existing AFS pipelines for seamless integration',
-'Built reconciliation DAGs with real-time email/Slack alerts , enabling detection of data loss, delays, or mismatch',
-'Optimized pipeline architecture to reduce AWS resource consumption, cutting infrastructure costs by over 40%'],
+    workExperiencePoints: [
+      'Executed a flawless platform modernization for Nike Inc., migrating from SAP AFS to SAP S/4HANA with zero downtime and no data loss , ensuring complete business continuity',
+      'Reduced operational expenditures by over 40% while simultaneously boosting system throughput by conducting a thorough analysis and optimization of the AWS cloud architecture and resource utilization',
+      'Engineered fault-tolerant and reliable data processing for downstream systems by designing and implementing ETL pipelines and microservices (Python, Spark, AWS, Airflow) with modular, reusable components and automated testing',
+      'Eliminated manual reconciliation errors and improved data integrity by automating workflows using Airflow DAGs and real-time monitoring, which proactively detected and alerted teams to mismatches and delays via Slack/email APIs'],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
@@ -137,9 +139,8 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Jan. 2020 - Mar. 2020',
     workExperiencePoints: [
-      "Strengthened proficiency in Python and SQL by executing hands-on analytics projects on real-world datasets",
-      "Utilized NumPy, Pandas, Scikit-Learn, Matplotlib, and Seaborn to deliver actionable insights and data visualizations",
-      "Achieved >90% internship score , ranked highest in two capstone projects , and earned Top Performer recognition"
+      'Developed end-to-end analytics applications by leveraging Python (NumPy, Pandas, Scikit-Learn) and SQL to perform data modeling, build machine learning prototypes, and create compelling data visualizations with Matplotlib',
+      'Earned ‘Top Performer’ recognition for delivering impactful data solutions and leading the top-ranked capstone project'
     ],
     // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
