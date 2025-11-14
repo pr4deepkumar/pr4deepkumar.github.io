@@ -68,6 +68,14 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
+    name: 'Husky Eats',
+    description:
+      'Developed an application that enables seamless food and grocery ordering, allowing users to easily select and customize their preferences. Utilized Python, SQL, and HTML to create a smooth, user-friendly interface focused on enhancing the overall ordering experience.',
+    stack: ['Python', 'SQL', 'HTML'],
+    sourceCode: 'https://github.com/balaji2417/HuskyEats',
+    // livePreview: 'https://github.com',
+  },
+  {
     name: 'NBA Game Predictor',
     description:
       'Developed a real-time NBA game prediction app using FastAPI and Dash, leveraging machine learning models trained on historical team stats with data processed via NumPy and Pandas.',
@@ -84,13 +92,13 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
-    name: 'Husky Eats',
-    description:
-      'Developed an application that enables seamless food and grocery ordering, allowing users to easily select and customize their preferences. Utilized Python, SQL, and HTML to create a smooth, user-friendly interface focused on enhancing the overall ordering experience.',
-    stack: ['Python', 'SQL', 'HTML'],
-    sourceCode: 'https://github.com/balaji2417/HuskyEats',
-    // livePreview: 'https://github.com',
-  }
+  name: 'Personal Portfolio Website',
+  description:
+    'Developed a responsive portfolio website to showcase projects, skills, and achievements in a clean and engaging layout. Utilized HTML, CSS, and JavaScript to create a fast, visually appealing interface that ensures smooth navigation and an optimized user experience across devices. (The site you are currently viewing!)',
+  stack: ['HTML', 'CSS', 'JavaScript'],
+  sourceCode: 'https://github.com/pr4deepkumar/pr4deepkumar.github.io',
+  // livePreview: 'https://pr4deepkumar.github.io',
+}
 ]
 
 const publications = [
