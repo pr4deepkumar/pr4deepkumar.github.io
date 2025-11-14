@@ -53,14 +53,6 @@ const projects = [
     // livePreview: 'https://github.com',
   },
   {
-    name: 'AI Resume Analyzer',
-    description:
-      'Developed a recruitment assistant using GPT-4o that automates the evaluation of resumes against job descriptions by extracting text from PDFs and generating detailed suitability feedback in real time via a Flask web app.',
-    stack: ['Python', 'Flask', 'OpenAI GPT-4o', 'pdfplumber'],
-    sourceCode: 'https://github.com/pr4deepkumar/ai-resume-analyzer',
-    // livePreview: 'https://github.com',
-  },
-  {
     name: 'Image Processor Application',
     description:
       'Designed and deployed a modular MVC image-processing engine with 15+ advanced transformations like RGB, split/combine and histogram visualization that consistently delivers sub-second latency while maintaining 100% functional accuracy across 50+ rigorous test scenarios.',
@@ -89,6 +81,14 @@ const projects = [
       'Built a machine learning model using FastF1 and linear regression to predict 2025 F1 driver qualifying times based on historical performance data, evaluated with MAE and R² scores.',
     stack: ['Python', 'FastF1', 'Pandas', 'NumPy', 'SKLearn'],
     sourceCode: 'https://github.com/pr4deepkumar/F1QualiPredictor',
+    // livePreview: 'https://github.com',
+  },
+  {
+    name: 'AI Resume Analyzer',
+    description:
+      'Developed a recruitment assistant using GPT-4o that automates the evaluation of resumes against job descriptions by extracting text from PDFs and generating detailed suitability feedback in real time via a Flask web app.',
+    stack: ['Python', 'Flask', 'OpenAI GPT-4o', 'pdfplumber'],
+    sourceCode: 'https://github.com/pr4deepkumar/ai-resume-analyzer',
     // livePreview: 'https://github.com',
   },
   {
