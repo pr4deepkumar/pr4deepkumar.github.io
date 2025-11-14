@@ -94,7 +94,7 @@ const projects = [
   {
   name: 'Personal Portfolio Website',
   description:
-    'Developed a responsive portfolio website to showcase projects, skills, and achievements in a clean and engaging layout. Utilized HTML, CSS, and JavaScript to create a fast, visually appealing interface that ensures smooth navigation and an optimized user experience across devices. (The site you are currently viewing!)',
+    'Developed a responsive portfolio website to showcase projects, skills, and achievements in a clean and engaging layout and ensured smooth navigation and an optimized user experience across devices. (The site you are currently viewing!)',
   stack: ['HTML', 'CSS', 'JavaScript'],
   sourceCode: 'https://github.com/pr4deepkumar/pr4deepkumar.github.io',
   // livePreview: 'https://pr4deepkumar.github.io',
