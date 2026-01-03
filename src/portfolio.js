@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pradeep Kumar Vijayakumaran',
   role: "Grad Student at ",
-  description: "I'm a Master's student in Computer Science at Northeastern University, Boston, with 2 years of industry experience as a Senior Systems Engineer. My background is in software development, data engineering, analytics, integration, and migration, and I'm especially interested in using technology to optimize and integrate complex systems. I’ve had the opportunity to work in cross-functional teams across India, Japan, and the USA, which has strengthened my collaborative and problem-solving skills. I'm passionate about creating innovative, data-driven solutions that deliver real impact.",
+  description: "I'm a dedicated technology professional with 2+ years of industry experience as a Senior Systems Engineer and currently pursuing my Master's Degree in Computer Science at Northeastern University, Boston, USA. My experience spans data engineering, analytics, integration, and migration, with proficiency in software development and hands-on exposure to machine learning and artificial intelligence for building scalable, data-driven solutions. I'm driven by a strong curiosity to leverage technology and data to optimize complex systems, and I have a proven track record of collaborating with cross-functional teams across India, Japan, and the USA to solve challenging problems and deliver innovative, impactful outcomes.",
   //resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
