@@ -17,6 +17,52 @@ const about = {
   },
 }
 
+const workExperience = [
+  {
+    name: 'Senior Systems Engineer',
+    company: "Infosys Ltd.",
+    work_years: 'Oct. 2021 - June 2022',
+    workExperiencePoints: [
+      "Achieved 99.9% uptime for L’Oréal APAC's mission-critical enterprise applications by engineering a robust support system featuring proactive monitoring, automated alerting, and rapid incident resolution protocols",
+      'Improved data reliability and system performance by developing and optimizing scalable data pipelines (Scala, HiveQL, Control-M) to successfully integrate data feeds from two major Japanese retailers',
+      'Reduced critical system downtime and ensured SLA compliance by building and deploying real-time alerting APIs and automation scripts that immediately notified stakeholders of system failures, enabling faster response times',
+      'Enhanced system scalability and deployment efficiency by contributing to a strategic cloud migration from on-premise infrastructure to Google Cloud, utilizing Git and Agile practices to improve cross-team collaboration'
+
+    ],
+    isPublication: true,
+    isWork: true,
+    isEducation: false,
+  },
+  {
+    name: 'Systems Engineer',
+    company: "Infosys Ltd.",
+    work_years: 'Oct. 2020 - Sept. 2021',
+
+    workExperiencePoints: [
+      'Executed a flawless platform modernization for Nike Inc., migrating from SAP AFS to SAP S/4HANA with zero downtime and no data loss , ensuring complete business continuity',
+      'Reduced operational expenditures by over 40% while simultaneously boosting system throughput by conducting a thorough analysis and optimization of the AWS cloud architecture and resource utilization',
+      'Engineered fault-tolerant and reliable data processing for downstream systems by designing and implementing ETL pipelines and microservices (Python, Spark, AWS, Airflow) with modular, reusable components and automated testing',
+      'Eliminated manual reconciliation errors and improved data integrity by automating workflows using Airflow DAGs and real-time monitoring, which proactively detected and alerted teams to mismatches and delays via Slack/email APIs'],
+    // sourceCode: 'https://github.com/funcx-faas/funcX',
+    isPublication: true,
+    isWork: true,
+    isEducation: false,
+  },
+  {
+    name: 'Data Analyst Intern',
+    company: "Infosys Ltd.",
+    work_years: 'Jan. 2020 - Mar. 2020',
+    workExperiencePoints: [
+      'Developed end-to-end analytics applications by leveraging Python (NumPy, Pandas, Scikit-Learn) and SQL to perform data modeling, build machine learning prototypes, and create compelling data visualizations with Matplotlib',
+      'Earned ‘Top Performer’ recognition for delivering impactful data solutions and leading the top-ranked capstone project'
+    ],
+    // sourceCode: 'https://github.com/funcx-faas/funcX',
+    isPublication: true,
+    isWork: true,
+    isEducation: false,
+  }
+]
+
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
@@ -108,52 +154,6 @@ const publications = [
     //livePreview: 'https://doi.org/10.1109/AICAPS57044.2023.10074005',
     isPublication: true,
     
-  }
-]
-
-const workExperience = [
-  {
-    name: 'Senior Systems Engineer',
-    company: "Infosys Ltd.",
-    work_years: 'Oct. 2021 - June 2022',
-    workExperiencePoints: [
-      "Achieved 99.9% uptime for L’Oréal APAC's mission-critical enterprise applications by engineering a robust support system featuring proactive monitoring, automated alerting, and rapid incident resolution protocols",
-      'Improved data reliability and system performance by developing and optimizing scalable data pipelines (Scala, HiveQL, Control-M) to successfully integrate data feeds from two major Japanese retailers',
-      'Reduced critical system downtime and ensured SLA compliance by building and deploying real-time alerting APIs and automation scripts that immediately notified stakeholders of system failures, enabling faster response times',
-      'Enhanced system scalability and deployment efficiency by contributing to a strategic cloud migration from on-premise infrastructure to Google Cloud, utilizing Git and Agile practices to improve cross-team collaboration'
-
-    ],
-    isPublication: true,
-    isWork: true,
-    isEducation: false,
-  },
-  {
-    name: 'Systems Engineer',
-    company: "Infosys Ltd.",
-    work_years: 'Oct. 2020 - Sept. 2021',
-
-    workExperiencePoints: [
-      'Executed a flawless platform modernization for Nike Inc., migrating from SAP AFS to SAP S/4HANA with zero downtime and no data loss , ensuring complete business continuity',
-      'Reduced operational expenditures by over 40% while simultaneously boosting system throughput by conducting a thorough analysis and optimization of the AWS cloud architecture and resource utilization',
-      'Engineered fault-tolerant and reliable data processing for downstream systems by designing and implementing ETL pipelines and microservices (Python, Spark, AWS, Airflow) with modular, reusable components and automated testing',
-      'Eliminated manual reconciliation errors and improved data integrity by automating workflows using Airflow DAGs and real-time monitoring, which proactively detected and alerted teams to mismatches and delays via Slack/email APIs'],
-    // sourceCode: 'https://github.com/funcx-faas/funcX',
-    isPublication: true,
-    isWork: true,
-    isEducation: false,
-  },
-  {
-    name: 'Data Analyst Intern',
-    company: "Infosys Ltd.",
-    work_years: 'Jan. 2020 - Mar. 2020',
-    workExperiencePoints: [
-      'Developed end-to-end analytics applications by leveraging Python (NumPy, Pandas, Scikit-Learn) and SQL to perform data modeling, build machine learning prototypes, and create compelling data visualizations with Matplotlib',
-      'Earned ‘Top Performer’ recognition for delivering impactful data solutions and leading the top-ranked capstone project'
-    ],
-    // sourceCode: 'https://github.com/funcx-faas/funcX',
-    isPublication: true,
-    isWork: true,
-    isEducation: false,
   }
 ]
 
