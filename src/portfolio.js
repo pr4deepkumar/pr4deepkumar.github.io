@@ -157,25 +157,6 @@ const workExperience = [
   }
 ]
 
-const education = [
-  {
-    name: 'Northeastern University',
-    description: "Master's in Computer Science",
-    // gpa: "9.04 / 10",
-    years: '2024 - Present',
-    isPublication: true,
-    isEducation: true,
-  },
-  {
-    name: "Anna University",
-    description: 'B.E. in Computer Science and Engineering',
-    gpa: "8.60 / 10",
-    years: '2016 - 2020',
-    isPublication: true,
-    isEducation: true,
-  }
-]
-
 const skills = {
   // Programming Languages
   "Python": 90,
@@ -217,6 +198,25 @@ const skills = {
   "Streamlit": 80,
   "Git": 85
 }
+
+const education = [
+  {
+    name: 'Northeastern University',
+    description: "Master's in Computer Science",
+    gpa: "3.667 / 4.0",
+    years: '2024 - Present',
+    isPublication: true,
+    isEducation: true,
+  },
+  {
+    name: "Anna University",
+    description: 'B.E. in Computer Science and Engineering',
+    gpa: "8.60 / 10",
+    years: '2016 - 2020',
+    isPublication: true,
+    isEducation: true,
+  }
+]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
