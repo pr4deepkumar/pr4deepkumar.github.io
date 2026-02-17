@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pradeep Kumar Vijayakumaran',
   role: "Grad Student at ",
-  description: "I'm a dedicated technology professional with 2+ years of industry experience as a Senior Systems Engineer and currently pursuing my Master's Degree in Computer Science at Northeastern University, Boston, USA. My experience spans data engineering, analytics, integration, and migration, with proficiency in software development and hands-on exposure to machine learning and artificial intelligence for building scalable, data-driven solutions. I'm driven by a strong curiosity to leverage technology and data to optimize complex systems, and I have a proven track record of collaborating with cross-functional teams across India, Japan, and the USA to solve challenging problems and deliver innovative, impactful outcomes.",
+  description: "I am a MSCS student at Northeastern University with 2+ years of industry experience building scalable data pipelines, cloud-native platforms, and distributed systems. Developed production-grade ETL/ELT pipelines, machine learning and AI solutions, and analytics infrastructure for enterprise-scale applications. Proven track record driving enterprise data and cloud solutions for global clients like Nike and L’Oréal .",
   //resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
@@ -176,6 +176,7 @@ const skills = {
   // Languages & Analytics
   "Python": 90,
   "SQL": 90,
+  "R": 80,
   "Scala": 80,
   "JavaScript": 80,
   "PowerBI": 85,
