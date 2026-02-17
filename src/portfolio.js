@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pradeep Kumar Vijayakumaran',
   role: "Grad Student at ",
-  description: "I am a MSCS student at Northeastern University with 2+ years of industry experience building scalable data pipelines, cloud-native platforms, and distributed systems. Developed production-grade ETL/ELT pipelines, machine learning and AI solutions, and analytics infrastructure for enterprise-scale applications. Proven track record driving enterprise data and cloud solutions for global clients like Nike and L’Oréal .",
+  description: "I am a MSCS student at Northeastern University with 2+ years of industry experience building scalable data pipelines, cloud-native platforms, and distributed systems. Developed production-grade ETL/ELT pipelines, machine learning and AI solutions, and analytics infrastructure for enterprise-scale applications. Proven track record driving enterprise data and cloud solutions for global clients like Nike and L’Oréal.",
   //resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
@@ -176,8 +176,8 @@ const skills = {
   // Languages & Analytics
   "Python": 90,
   "SQL": 90,
-  "R": 80,
   "Scala": 80,
+  "R": 80,
   "JavaScript": 80,
   "PowerBI": 85,
   "Tableau": 80,
