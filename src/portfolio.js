@@ -18,16 +18,26 @@ const about = {
 }
 
 const workExperience = [
+    {
+    name: 'Digital Analytics Intern',
+    company: "Fashion Index",
+    work_years: 'Jan. 2026 - Present',
+    workExperiencePoints: [
+      'Architected a scalable visual search infrastructure using Python, DINOv2 and ChromaDB, utilizing high-dimensional texture embeddings and hybrid scoring to improve retrieval accuracy',
+      'Developing automated ETL pipelines by reverse-engineering Shopify APIs to aggregate and normalize product data from partner vendors, continuously expanding platform inventory and discoverability',
+      'Developing scalable React.js web applications to visualize complex product and search metadata with real-time interactivity, enabling real-time text search and intuitive product visualization through a clean, responsive user interface'],
+    isPublication: true,
+    isWork: true,
+    isEducation: false,
+  },
   {
     name: 'Senior Systems Engineer',
     company: "Infosys Ltd.",
     work_years: 'Oct. 2021 - June 2022',
     workExperiencePoints: [
-      "Achieved 99.9% uptime for L’Oréal APAC's mission-critical enterprise applications by engineering a robust support system featuring proactive monitoring, automated alerting, and rapid incident resolution protocols",
-      'Improved data reliability and system performance by developing and optimizing scalable data pipelines (Scala, HiveQL, Control-M) to successfully integrate data feeds from two major Japanese retailers',
-      'Reduced critical system downtime and ensured SLA compliance by building and deploying real-time alerting APIs and automation scripts that immediately notified stakeholders of system failures, enabling faster response times',
-      'Enhanced system scalability and deployment efficiency by contributing to a strategic cloud migration from on-premise infrastructure to Google Cloud, utilizing Git and Agile practices to improve cross-team collaboration'
-
+      "Achieved 99.9% uptime for L’Oréal APAC’s mission-critical analytics systems by implementing proactive monitoring, automated alerting, and rapid incident response workflows, reducing service disruptions and SLA violations",
+      'Designed, built and optimized scalable ingestion pipelines using Scala, HiveQL, and Control-M to integrate daily data feeds from major Japanese retailers improving data reliability and accelerating enterprise analytics processing',
+      'Supported strategic migration of enterprise data infrastructure from on-premise systems to GCP and reduced MTTR by 50% by developing real-time alerting APIs and automation workflows using Git-based CI/CD practice'
     ],
     isPublication: true,
     isWork: true,
@@ -39,11 +49,10 @@ const workExperience = [
     work_years: 'Oct. 2020 - Sept. 2021',
 
     workExperiencePoints: [
-      'Executed a flawless platform modernization for Nike Inc., migrating from SAP AFS to SAP S/4HANA with zero downtime and no data loss , ensuring complete business continuity',
-      'Reduced operational expenditures by over 40% while simultaneously boosting system throughput by conducting a thorough analysis and optimization of the AWS cloud architecture and resource utilization',
-      'Engineered fault-tolerant and reliable data processing for downstream systems by designing and implementing ETL pipelines and microservices (Python, Spark, AWS, Airflow) with modular, reusable components and automated testing',
-      'Eliminated manual reconciliation errors and improved data integrity by automating workflows using Airflow DAGs and real-time monitoring, which proactively detected and alerted teams to mismatches and delays via Slack/email APIs'],
-    // sourceCode: 'https://github.com/funcx-faas/funcX',
+      'Executed a flawless platform modernization for Nike Inc. migrating from SAP AFS to SAP S/4HANA with zero downtime and no data loss ensuring uninterrupted business operations and seamless system transition',
+      'Built fault-tolerant ETL pipelines and distributed data workflows using Python, Spark, Airflow, and AWS improving pipeline scalability, reliability, and downstream data availability for analytics use cases',
+      'Reduced cloud operational costs by 40% and improved system performance by optimizing AWS infrastructure utilization automating workflows with Airflow DAGs and implementing real-time monitoring and alerting'
+    ],
     isPublication: true,
     isWork: true,
     isEducation: false,
@@ -53,10 +62,8 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Jan. 2020 - Mar. 2020',
     workExperiencePoints: [
-      'Developed end-to-end analytics applications by leveraging Python (NumPy, Pandas, Scikit-Learn) and SQL to perform data modeling, build machine learning prototypes, and create compelling data visualizations with Matplotlib',
-      'Earned ‘Top Performer’ recognition for delivering impactful data solutions and leading the top-ranked capstone project'
+      'Developed end-to-end Analytics and ML applications using Python (NumPy, Pandas, scikit-learn) and SQL for data modeling, predictive analysis, and visualization earning ‘Top Performer’ recognition out of 234 cohorts'
     ],
-    // sourceCode: 'https://github.com/funcx-faas/funcX',
     isPublication: true,
     isWork: true,
     isEducation: false,
@@ -72,6 +79,14 @@ const projects = [
     'Built a deep learning model to translate natural language questions into executable SQL queries. Achieved 43.9% execution accuracy on the cross-domain Spider dataset using 5.6k training and 700 validation pairs. Engineered a PyTorch-based pipeline for schema serialization, model training, and real-time SQLite query evaluation.',
   stack: ['Python', 'PyTorch', 'Hugging Face Transformers', 'PEFT', 'Spider Dataset'],
   sourceCode: 'https://colab.research.google.com/drive/1-68rIhavcMDalklLkGdOTn7KnKFvvzKi?usp=sharing',
+  // livePreview: 'https://github.com',
+  },
+  {
+  name: 'GitHub Analytics Dashboard',
+  description:
+  'Built a serverless GitHub analytics dashboard that transforms repository, pull request, issue, and profile data into an interactive HTML/JavaScript interface. Designed an end-to-end infrastructure-as-code pipeline using Terraform/OpenTofu with AWS S3 for static hosting and AWS Lambda + EventBridge for automated data collection and dashboard generation. Engineered Python data ingestion using the GitHub REST API and implemented scheduled, scalable analytics processing with fully automated deployment.',
+  stack: ['Python', 'JavaScript', 'Terraform/OpenTofu', 'AWS S3', 'AWS Lambda', 'AWS EventBridge', 'GitHub REST API', 'Serverless', 'HTML/CSS'],
+  sourceCode: 'https://github.com/pr4deepkumar/GithubDashboard',
   // livePreview: 'https://github.com',
   },
   {
@@ -158,45 +173,38 @@ const publications = [
 ]
 
 const skills = {
-  // Programming Languages
+  // Languages & Analytics
   "Python": 90,
   "SQL": 90,
-  "Scala": 85,
-  "R": 85,
-  "Java": 80,
-  "JavaScript": 75,
+  "Scala": 80,
+  "JavaScript": 80,
+  "PowerBI": 85,
+  "Tableau": 80,
   
-  // Data Engineering & Streaming
+  // Data Engineering & AI
   "Spark": 90,
   "PySpark": 90,
-  "Kafka": 85,
   "Airflow": 85,
-  "Hive": 85,
-  "Hadoop": 85,
+  "Kafka": 85,
+  "dbt": 80,
   "MySQL": 90,
   "MongoDB": 80,
-  "Google Tag Manager": 80,
-
-  // Machine Learning & AI
-  "Pandas": 90,
-  "NumPy": 90,
-  "scikit-learn": 90,
+  "Polars": 80,
   "PyTorch": 85,
-  "XGBoost": 80,
-  "Hugging Face Transformers": 80,
-  "LLMs": 80,
+  "Hugging Face": 80,
+  "scikit-learn": 90,
+  "LangChain": 80,
 
-  // Cloud, Analytics & DevOps
+  // Cloud & Infrastructure
   "AWS": 90,
   "Google Cloud": 85,
+  "Snowflake": 85,
   "Docker": 80,
-  "Kubernetes": 75,
-  "GA4": 80,
-  "Looker Studio": 80,
-  "Power BI": 75,
-  "Tableau": 75,
-  "Streamlit": 80,
-  "Git": 85
+  "Kubernetes": 80,
+  "Terraform": 80,
+  "OpenTofu": 80,
+  "Git": 85,
+  "CI/CD": 75,
 }
 
 const education = [
