@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pradeep Kumar Vijayakumaran',
   role: "Grad Student at ",
-  description: "I am a MSCS student at Northeastern University with 2+ years of industry experience building scalable data pipelines, cloud-native platforms, and distributed systems. Developed production-grade ETL/ELT pipelines, machine learning and AI solutions, and analytics infrastructure for enterprise-scale applications. Proven track record driving enterprise data and cloud solutions for global clients like Nike and L’Oréal.",
+  description: "Computer Science graduate student at Northeastern University with 2+ years of experience building production-scale AI systems, distributed data pipelines, and cloud-native platforms. Proven track record delivering scalable data infrastructure and enterprise analytics solutions for global clients including Nike and L’Oréal. Experienced in designing end-to-end pipelines spanning data ingestion, vector embeddings, and high-performance retrieval systems. Skilled in leveraging AWS and GCP to improve system reliability, scalability, and operational efficiency, with the ability to bridge advanced AI research and robust production deployment.",
   //resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
@@ -23,9 +23,9 @@ const workExperience = [
     company: "Fashion Index",
     work_years: 'Jan. 2026 - Present',
     workExperiencePoints: [
-      'Architected a scalable visual search infrastructure using Python, DINOv2 and ChromaDB, utilizing high-dimensional texture embeddings and hybrid scoring to improve retrieval accuracy',
-      'Developing automated ETL pipelines by reverse-engineering Shopify APIs to aggregate and normalize product data from partner vendors, continuously expanding platform inventory and discoverability',
-      'Developing scalable React.js web applications to visualize complex product and search metadata with real-time interactivity, enabling real-time text search and intuitive product visualization through a clean, responsive user interface'],
+      'Architected an end-to-end AI-powered visual search system using Python, DINOv2 embeddings, and ChromaDB to enable scalable semantic retrieval across large-scale product catalogs',
+      'Building automated ETL and embedding pipelines by integrating Shopify APIs to enable scalable data ingestion, normalization, and vector indexing for a continuously expanding product inventory',
+      'Developing full-stack interfaces and backend retrieval services using React.js and Python to enable real-time search, metadata-aware filtering, and visualization of vector search results'],
     isPublication: true,
     isWork: true,
     isEducation: false,
@@ -35,9 +35,9 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Oct. 2021 - June 2022',
     workExperiencePoints: [
-      "Achieved 99.9% uptime for L’Oréal APAC’s mission-critical analytics systems by implementing proactive monitoring, automated alerting, and rapid incident response workflows, reducing service disruptions and SLA violations",
-      'Designed, built and optimized scalable ingestion pipelines using Scala, HiveQL, and Control-M to integrate daily data feeds from major Japanese retailers improving data reliability and accelerating enterprise analytics processing',
-      'Supported strategic migration of enterprise data infrastructure from on-premise systems to GCP and reduced MTTR by 50% by developing real-time alerting APIs and automation workflows using Git-based CI/CD practice'
+      "Designed and deployed scalable enterprise data ingestion pipelines using Scala, Spark, HiveQL, and Control-M to improve the reliability and throughput of analytics systems for L’Oréal APAC",
+      'Improved platform reliability to 99.9% uptime by implementing proactive monitoring, automated alerting, and incident response workflows that significantly reduced service disruptions',
+      'Supported strategic migration of enterprise data infrastructure from on-premise systems to Google Cloud Platform and built real-time alerting and CI/CD automation workflows to reduce MTTR by 50%'
     ],
     isPublication: true,
     isWork: true,
@@ -49,9 +49,9 @@ const workExperience = [
     work_years: 'Oct. 2020 - Sept. 2021',
 
     workExperiencePoints: [
-      'Executed a flawless platform modernization for Nike Inc. migrating from SAP AFS to SAP S/4HANA with zero downtime and no data loss ensuring uninterrupted business operations and seamless system transition',
-      'Built fault-tolerant ETL pipelines and distributed data workflows using Python, Spark, Airflow, and AWS improving pipeline scalability, reliability, and downstream data availability for analytics use cases',
-      'Reduced cloud operational costs by 40% and improved system performance by optimizing AWS infrastructure utilization automating workflows with Airflow DAGs and implementing real-time monitoring and alerting'
+      'Built fault-tolerant ETL pipelines and distributed data workflows using Python, Spark, Airflow, and AWS to improve the scalability and availability of enterprise analytics data',
+      'Supported enterprise platform modernization for Nike by contributing to the migration from SAP AFS to SAP S/4HANA with zero downtime and no data loss',
+      'Reduced cloud operational costs by 40% and improved system performance by optimizing AWS infrastructure utilization, automating workflows with Airflow DAGs, and implementing real-time monitoring and alerting'
     ],
     isPublication: true,
     isWork: true,
@@ -81,12 +81,12 @@ const projects = [
   sourceCode: 'https://colab.research.google.com/drive/1-68rIhavcMDalklLkGdOTn7KnKFvvzKi?usp=sharing',
   // livePreview: 'https://github.com',
   },
-  {
-  name: 'GitHub Analytics Dashboard',
+    {
+  name: 'DocuVerse: AI Agent-Powered Document Research',
   description:
-  'Built a serverless GitHub analytics dashboard that transforms repository, pull request, issue, and profile data into an interactive HTML/JavaScript interface. Designed an end-to-end infrastructure-as-code pipeline using Terraform/OpenTofu with AWS S3 for static hosting and AWS Lambda + EventBridge for automated data collection and dashboard generation. Engineered Python data ingestion using the GitHub REST API and implemented scheduled, scalable analytics processing with fully automated deployment.',
-  stack: ['Python', 'JavaScript', 'Terraform/OpenTofu', 'AWS S3', 'AWS Lambda', 'AWS EventBridge', 'GitHub REST API', 'Serverless', 'HTML/CSS'],
-  sourceCode: 'https://github.com/pr4deepkumar/GithubDashboard',
+    'Built an end-to-end AI document research platform that ingests PDFs from S3, parses page-level text, and indexes embeddings in Pinecone for retrieval-augmented QA. Implemented multi-agent research (document selection, RAG, web, arXiv) with FastAPI and Streamlit, including CSV/PDF session export. Automated ingestion and indexing with Airflow and deployed via Docker.',
+  stack: ['Python', 'FastAPI', 'Streamlit', 'OpenAI API', 'Pinecone', 'AWS S3', 'Airflow', 'Docker'],
+  sourceCode: 'https://github.com/pr4deepkumar/DocuVerse-AI-Agent-Powered-Document-Research',
   // livePreview: 'https://github.com',
   },
   {
@@ -95,6 +95,14 @@ const projects = [
     'Built a machine learning-based intrusion detection system using the UNSW-NB15 dataset to classify network traffic as normal or malicious. Applied XGBoost for anomaly detection, achieving high accuracy and precision. Developed a real-time Streamlit dashboard for interactive visualization of predictions and network statistics.',
   stack: ['Python', 'Scikit-learn', 'XGBoost', 'Kafka', 'Streamlit', 'UNSW-NB15'],
   sourceCode: 'https://github.com/pr4deepkumar/Network-Intrustion-Detection-using-ML',
+  // livePreview: 'https://github.com',
+  },
+    {
+  name: 'GitHub Analytics Dashboard',
+  description:
+  'Built a serverless GitHub analytics dashboard that transforms repository, pull request, issue, and profile data into an interactive HTML/JavaScript interface. Designed an end-to-end infrastructure-as-code pipeline using Terraform/OpenTofu with AWS S3 for static hosting and AWS Lambda + EventBridge for automated data collection and dashboard generation. Engineered Python data ingestion using the GitHub REST API and implemented scheduled, scalable analytics processing with fully automated deployment.',
+  stack: ['Python', 'JavaScript', 'Terraform/OpenTofu', 'AWS S3', 'AWS Lambda', 'AWS EventBridge', 'GitHub REST API', 'Serverless', 'HTML/CSS'],
+  sourceCode: 'https://github.com/pr4deepkumar/GithubDashboard',
   // livePreview: 'https://github.com',
   },
   {
