@@ -7,7 +7,7 @@ const Skills = () => {
 
   return (
     <section className='section skills' id='skills'>
-      <h2 className='section__title'>My Skills</h2>
+      <h2 className='section__title'>Skills</h2>
       {Object.entries(skills).map(([category, items]) => (
         <div key={uniqid()} className='skills__category'>
           <h3 className='skills__category-title'>{category}</h3>
