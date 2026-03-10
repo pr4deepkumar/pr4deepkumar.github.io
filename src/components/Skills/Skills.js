@@ -1,50 +1,24 @@
 import uniqid from 'uniqid'
-import ProgressBar from "@ramonak/react-progress-bar";
 import { skills } from '../../portfolio'
 import './Skills.css'
 
 const Skills = () => {
-  const skillEntries = Object.entries(skills);
-
-  if (!skillEntries.length) return null
-
-  const barColor = (skillLevel) => {
-    let fontColor = "#2d63dd";
-    if(skillLevel < 40){
-      fontColor = "#FFCC33";
-    }
-    return fontColor
-  }
-  const currentTheme = () => {
-    const theme = localStorage.getItem("themeName");
-    let label = "#bc9fbd"
-    if (theme === "light"){
-      label = "#5b84a4"
-    }
-    return label
-  }
+  if (!Object.keys(skills).length) return null
 
   return (
     <section className='section skills' id='skills'>
       <h2 className='section__title'>My Skills</h2>
-      <ul className='skills__grid'>
-        {skillEntries.map(([skill, percentage]) => (
-          <li key={uniqid()} className='skills__list-item btn btn--plain'>
-            {skill}
-            <ProgressBar 
-              completed={percentage}
-              bgColor={barColor(percentage)}
-              labelAlignment="outside"
-              height="0.85em"
-              width="80%"
-              labelColor={currentTheme()}
-              labelSize="1em"
-              />
-          </li>
-        ))}
-      </ul>
+      {Object.entries(skills).map(([category, items]) => (
+        <div key={uniqid()} className='skills__category'>
+          <h3 className='skills__category-title'>{category}</h3>
+          <div className='skills__badges'>
+            {items.map(({ name, badge }) => (
+              <img key={uniqid()} src={badge} alt={name} className='skills__badge' />
+            ))}
+          </div>
+        </div>
+      ))}
     </section>
-
   )
 }
 
