@@ -126,6 +126,7 @@ const projects = [
     description:
       'Designed and deployed a modular MVC image-processing engine with 15+ advanced transformations like RGB, split/combine and histogram visualization that consistently delivers sub-second latency while maintaining 100% functional accuracy across 50+ rigorous test scenarios.',
     sourceCode: 'https://github.com/pr4deepkumar/Image-Processor-Application',
+    stack: ['Java', 'Java Swing', 'MVC', 'JUnit'],   
     // livePreview: 'https://github.com',
   },
   {
@@ -188,6 +189,7 @@ const skills = {
     { name: "Scala", badge: "https://img.shields.io/badge/-Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" },
     { name: "R", badge: "https://img.shields.io/badge/-R-276DC3?style=for-the-badge&logo=r&logoColor=white" },
     { name: "JavaScript", badge: "https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" },
+    { name: "C++", badge: "https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" },
   ],
   "AI & Machine Learning": [
     { name: "PyTorch", badge: "https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" },
@@ -195,11 +197,12 @@ const skills = {
     { name: "scikit-learn", badge: "https://img.shields.io/badge/-Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" },
     { name: "LangChain", badge: "https://img.shields.io/badge/-LangChain-000000?style=for-the-badge" },
     { name: "XGBoost", badge: "https://img.shields.io/badge/-XGBoost-EC0000?style=for-the-badge" },
-    { name: "Transformers", badge: "https://img.shields.io/badge/-Transformers-FF6F00?style=for-the-badge" },
+    { name: "OpenAI API", badge: "https://img.shields.io/badge/-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" },
+    { name: "Pinecone", badge: "https://img.shields.io/badge/-Pinecone-000000?style=for-the-badge" },
+    { name: "ChromaDB", badge: "https://img.shields.io/badge/-ChromaDB-FF6B35?style=for-the-badge" },
   ],
   "Data Engineering & Distributed Systems": [
     { name: "Apache Spark", badge: "https://img.shields.io/badge/-Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" },
-    { name: "PySpark", badge: "https://img.shields.io/badge/-PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" },
     { name: "Airflow", badge: "https://img.shields.io/badge/-Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" },
     { name: "Kafka", badge: "https://img.shields.io/badge/-Kafka-000000?style=for-the-badge&logo=apache-kafka&logoColor=white" },
     { name: "dbt", badge: "https://img.shields.io/badge/-dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" },
@@ -207,6 +210,8 @@ const skills = {
     { name: "MySQL", badge: "https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" },
     { name: "MongoDB", badge: "https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" },
     { name: "Snowflake", badge: "https://img.shields.io/badge/-Snowflake-56B9FF?style=for-the-badge&logo=snowflake&logoColor=white" },
+    { name: "Neo4j", badge: "https://img.shields.io/badge/-Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" },
+    { name: "Supabase", badge: "https://img.shields.io/badge/-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" },
   ],
   "Cloud & Infrastructure": [
     { name: "AWS", badge: "https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" },
@@ -214,12 +219,21 @@ const skills = {
     { name: "Docker", badge: "https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" },
     { name: "Kubernetes", badge: "https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" },
     { name: "Terraform", badge: "https://img.shields.io/badge/-Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white" },
+    { name: "OpenTofu", badge: "https://img.shields.io/badge/-OpenTofu-FFDA44?style=for-the-badge" },
     { name: "Git", badge: "https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" },
     { name: "CI/CD", badge: "https://img.shields.io/badge/-CI%2FCD-000000?style=for-the-badge" },
+  ],
+  "Web & Backend": [
+    { name: "FastAPI", badge: "https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" },
+    { name: "React", badge: "https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" },
+    { name: "Streamlit", badge: "https://img.shields.io/badge/-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" },
+    { name: "Flask", badge: "https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=white" },
+    { name: "Dash", badge: "https://img.shields.io/badge/-Dash-008DE4?style=for-the-badge&logo=plotly&logoColor=white" },
   ],
   "Analytics & Visualization": [
     { name: "Power BI", badge: "https://img.shields.io/badge/-PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" },
     { name: "Tableau", badge: "https://img.shields.io/badge/-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" },
+    { name: "Excel", badge: "https://img.shields.io/badge/-Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" },
   ],
 }
 
