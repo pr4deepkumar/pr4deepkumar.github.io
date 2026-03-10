@@ -223,8 +223,6 @@ const skills = {
   ],
 }
 
-export { header, about, projects, skills, contact, publications, education, workExperience }
-
 const education = [
   {
     name: 'Northeastern University',
