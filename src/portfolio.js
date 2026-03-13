@@ -25,6 +25,7 @@ const workExperience = [
     workExperiencePoints: [
       'Achieved 95% image-to-product match accuracy, validated across platform inventory, by architecting a semantic visual search system using Python, DINOv2 embeddings, and hybrid similarity scoring',
       'Scaled platform inventory to 56k+ products by engineering automated ETL pipelines via reverse-engineered Shopify APIs, normalizing and indexing data across partner vendors for AI-powered search',
+      'Drove a 25% increase in website traffic by delivering analytics dashboards that surfaced actionable user behavior and product performance insights, enabling data-driven decision-making',
       'Reduced search result render times to 8ms by building interactive React.js applications to visualize vector search outputs and product metadata in real time, enabling seamless product discovery at scale'],
     isPublication: true,
     isWork: true,
