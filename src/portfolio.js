@@ -8,7 +8,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pradeep Kumar Vijayakumaran',
   role: "AI & Data Engineer | MSCS @ ",
-  description: "Software Engineer and CS graduate student at Northeastern University with 2+ years of experience building production-scale AI systems, distributed data pipelines, and cloud-native platforms. Proven track record delivering scalable data infrastructure and enterprise analytics solutions for global clients including Nike and L’Oréal. Experienced in designing end-to-end pipelines spanning data ingestion, vector embeddings, and high-performance retrieval systems. Skilled in leveraging AWS and GCP to improve system reliability, scalability, and operational efficiency, with the ability to bridge advanced AI research and robust production deployment.",
+  description: "Software Engineer and CS graduate student at Northeastern University with 2+ years of experience building production-scale AI systems, distributed data pipelines, and cloud-native platforms for global clients including Nike and L'Oréal. Skilled in end-to-end development spanning data ingestion, vector embeddings, and high-performance retrieval systems across AWS and GCP.",
   //resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
@@ -23,9 +23,9 @@ const workExperience = [
     company: "Fashion Index",
     work_years: 'Jan. 2026 - Present',
     workExperiencePoints: [
-      'Architected an end-to-end AI-powered visual search system using Python, DINOv2 embeddings, and ChromaDB to enable scalable semantic retrieval across large-scale product catalogs',
-      'Building automated ETL and embedding pipelines by integrating Shopify APIs to enable scalable data ingestion, normalization, and vector indexing for a continuously expanding product inventory',
-      'Developing full-stack interfaces and backend retrieval services using React.js and Python to enable real-time search, metadata-aware filtering, and visualization of vector search results'],
+      'Achieved 95% image-to-product match accuracy, validated across platform inventory, by architecting a semantic visual search system using Python, DINOv2 embeddings, and hybrid similarity scoring',
+      'Scaled platform inventory to 56k+ products by engineering automated ETL pipelines via reverse-engineered Shopify APIs, normalizing and indexing data across partner vendors for AI-powered search',
+      'Reduced search result render times to 8ms by building interactive React.js applications to visualize vector search outputs and product metadata in real time, enabling seamless product discovery at scale'],
     isPublication: true,
     isWork: true,
     isEducation: false,
@@ -35,9 +35,9 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Oct. 2021 - June 2022',
     workExperiencePoints: [
-      "Designed and deployed scalable enterprise data ingestion pipelines using Scala, Spark, HiveQL, and Control-M to improve the reliability and throughput of analytics systems for L’Oréal APAC",
-      'Improved platform reliability to 99.9% uptime by implementing proactive monitoring, automated alerting, and incident response workflows that significantly reduced service disruptions',
-      'Supported strategic migration of enterprise data infrastructure from on-premise systems to Google Cloud Platform and built real-time alerting and CI/CD automation workflows to reduce MTTR by 50%'
+      "Maintained 99.9% uptime for L'Oréal’s mission-critical analytics systems by engineering proactive monitoring and automated alerting workflows that eliminated recurring SLA violations",
+      'Delivered a production-grade analytics pipeline, replacing a fragmented ingestion process, by designing and optimizing Scala and T-SQL (SSMS) ingestion pipelines with Control-M scheduling for major Japanese retailer data feeds',
+      'Reduced MTTR by 50% during a high-risk on-premise to GCP migration by building real-time alerting APIs and automating incident response through Git-based CI/CD pipelines'
     ],
     isPublication: true,
     isWork: true,
@@ -49,9 +49,9 @@ const workExperience = [
     work_years: 'Oct. 2020 - Sept. 2021',
 
     workExperiencePoints: [
-      'Built fault-tolerant ETL pipelines and distributed data workflows using Python, Spark, Airflow, and AWS to improve the scalability and availability of enterprise analytics data',
-      'Supported enterprise platform modernization for Nike by contributing to the migration from SAP AFS to SAP S/4HANA with zero downtime and no data loss',
-      'Reduced cloud operational costs by 40% and improved system performance by optimizing AWS infrastructure utilization, automating workflows with Airflow DAGs, and implementing real-time monitoring and alerting'
+      'Delivered zero-downtime, zero-data-loss platform modernization for Nike Inc. by leading the full migration from SAP AFS to SAP S/4HANA across a complex, high-visibility transition',
+      'Eliminated downstream data gaps for analytics teams by rebuilding existing ingestion workflows into fault-tolerant distributed ETL pipelines using Python, Spark, Airflow, and AWS',
+      'Reduced cloud operational costs by 40% by identifying over-provisioned AWS infrastructure, optimizing resource utilization, and automating recurring workflows with Airflow DAGs and real-time alerting'
     ],
     isPublication: true,
     isWork: true,
@@ -62,7 +62,7 @@ const workExperience = [
     company: "Infosys Ltd.",
     work_years: 'Jan. 2020 - Mar. 2020',
     workExperiencePoints: [
-      'Developed end-to-end Analytics and ML applications using Python (NumPy, Pandas, scikit-learn) and SQL for data modeling, predictive analysis, and visualization earning ‘Top Performer’ recognition out of 234 cohorts'
+      "Earned 'Top Performer' recognition by delivering end-to-end ML and analytics applications using Python (NumPy, Pandas, scikit-learn) and SQL for data modeling, predictive analysis, and visualization"
     ],
     isPublication: true,
     isWork: true,
@@ -74,19 +74,19 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-  name: 'Natural Language Database Interface (NLDI) Engine',
-  description:
-    'Built a deep learning model to translate natural language questions into executable SQL queries. Achieved 43.9% execution accuracy on the cross-domain Spider dataset using 5.6k training and 700 validation pairs. Engineered a PyTorch-based pipeline for schema serialization, model training, and real-time SQLite query evaluation.',
-  stack: ['Python', 'PyTorch', 'Hugging Face Transformers', 'PEFT', 'Spider Dataset'],
-  sourceCode: 'https://colab.research.google.com/drive/1-68rIhavcMDalklLkGdOTn7KnKFvvzKi?usp=sharing',
-  // livePreview: 'https://github.com',
-  },
-    {
   name: 'DocuVerse: AI Agent-Powered Document Research',
   description:
     'Built an end-to-end AI document research platform that ingests PDFs from S3, parses page-level text, and indexes embeddings in Pinecone for retrieval-augmented QA. Implemented multi-agent research (document selection, RAG, web, arXiv) with FastAPI and Streamlit, including CSV/PDF session export. Automated ingestion and indexing with Airflow and deployed via Docker.',
   stack: ['Python', 'FastAPI', 'Streamlit', 'OpenAI API', 'Pinecone', 'AWS S3', 'Airflow', 'Docker'],
   sourceCode: 'https://github.com/pr4deepkumar/DocuVerse-AI-Agent-Powered-Document-Research',
+  // livePreview: 'https://github.com',
+  },
+  {
+  name: 'Natural Language Database Interface (NLDI) Engine',
+  description:
+    'Built a deep learning model to translate natural language questions into executable SQL queries. Achieved 43.9% execution accuracy on the cross-domain Spider dataset using 5.6k training and 700 validation pairs. Engineered a PyTorch-based pipeline for schema serialization, model training, and real-time SQLite query evaluation.',
+  stack: ['Python', 'PyTorch', 'Hugging Face Transformers', 'PEFT', 'Spider Dataset'],
+  sourceCode: 'https://colab.research.google.com/drive/1-68rIhavcMDalklLkGdOTn7KnKFvvzKi?usp=sharing',
   // livePreview: 'https://github.com',
   },
   {
