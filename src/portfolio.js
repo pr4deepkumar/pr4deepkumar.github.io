@@ -8,8 +8,10 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Pradeep Kumar Vijayakumaran',
   role: "AI & Data Engineer | MSCS @ ",
-  description: "Software Engineer and CS graduate student at Northeastern University with 2+ years of experience building production-scale AI systems, distributed data pipelines, and cloud-native platforms for global clients including Nike and L'Oréal. Skilled in end-to-end development spanning data ingestion, vector embeddings, and high-performance retrieval systems across AWS and GCP.",
-  //resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
+description: `Software Engineer with 2+ years of experience building scalable data pipelines, distributed systems, and cloud-native platforms for global clients like Nike and L'Oréal. Experienced across the full data stack, from ingestion and ETL/ELT pipelines to high-performance retrieval systems on AWS and GCP, with a focus on reliability and cost efficiency at scale.
+
+Currently pursuing an MSCS at Northeastern University, specializing in RAG pipelines, vector databases, multimodal systems, and transformer architectures. Passionate about bridging robust data infrastructure with cutting-edge AI, because the best AI systems are only as good as the pipelines powering them.`,
+//resume: 'https://drive.google.com/file/d/1d9m7bX55oJwQNtHRQ-Ke8Lgul3yAN5Gt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/pradeep-kumar-v/',
     github: 'https://github.com/pr4deepkumar',
