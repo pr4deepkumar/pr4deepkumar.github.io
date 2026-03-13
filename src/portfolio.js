@@ -37,7 +37,7 @@ const workExperience = [
     workExperiencePoints: [
       "Maintained 99.9% uptime for L'Oréal’s mission-critical analytics systems by engineering proactive monitoring and automated alerting workflows that eliminated recurring SLA violations",
       'Delivered a production-grade analytics pipeline, replacing a fragmented ingestion process, by designing and optimizing Scala and T-SQL (SSMS) ingestion pipelines with Control-M scheduling for major Japanese retailer data feeds',
-      'Reduced MTTR by 50% during a high-risk on-premise to GCP migration by building real-time alerting APIs and automating incident response through Git-based CI/CD pipelines'
+      'Reduced MTTR by 50% during a high-risk on-premises to GCP migration by building real-time alerting APIs and automating incident response with Git-based CI/CD pipelines'
     ],
     isPublication: true,
     isWork: true,
